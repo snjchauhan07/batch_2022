@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>electronics</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<a href="sharma.html"><img src="rd.jpg" alt="image" style="width:5%;height:9%"></a>   <a class="a1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/mobilephone.html"><img src="logo1.png" alt="phn" width="2%" height="3%">Mobile Phones</a>  <a class="a2"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/Fridge.html"><img src="fridgelogo2.png" alt="phn" width="2%" height="3%">Refridgerator</a> <a class="a2"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/laptop.html"><img src="logo2.jpg" alt="phn" width="2%" height="3%">Laptops</a> <a class="a3"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/smartwatches.html"><img src="watch1.jpg" alt="image" style="width:2%;height:3%">Smartwatches</a>  <a class="a4"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/tablets.html"><img src="logo3.jpg" alt="image" style="width:2%;height:3%">Tablets</a>  <a class="a5"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/smarttv.html"><img src="tvlogo.png" alt="image" style="width:2%;height:3%">Smart T.V</a>  <a class="a6"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/air%2conditioner.html"><img src="aclogo2.jpg" alt="image" style="width:2%;height:3%">Air Conditioner</a>                              
+<br>
+<br> 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="mobile1.webp" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="mobile2.webp" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="mobile4.webp" style="width:100%">
+  
+</div>
+
+<div class="myslides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="mobile.webp" style="width:100%">
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<br>
+<a class="image1" href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/mobilephone.html"><img src="phone.webp" alt="phone" width="20%" height="30%"><br>(Smart Phone)</a>
+ <hr> 
+<a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/laptop.html"><img src="laptopimage.webp" alt="laptop" width="15%" height="30%"><br>(Laptop)</a>
+<hr>
+ <a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/smartwatches.html"><img src="sw.jpg" alt="watch" width="17%" height="30%"><br>(Smart Watch)</a>
+<hr> 
+<a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/tablets.html"><img src="tab.png" alt="tab" width="20%" height="20%"><br>(Tablet)</a>
+<hr> 
+<a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/smarttv.html"><img src="lcd.webp" alt="smarttv" width="20%" height="30%"><br>(Smart TV)</a>
+<hr>
+<a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/air%20conditioner.html"><img src="ac.webp" alt="ac" width="20%" height="30%"><br>(Air Conditioner)</a>
+<hr>
+<a class="image1"  href="file:///C:/Users/Yuvraj%20Sharma/Desktop/project2/Fridge.html"><img src="fridge.webp" alt="fridge" width="20%" height="30%"><br>(Refridgerater)</a>
+<hr>
+<ul>
+<li><h1 style="font-size:50px;">Recent Top Electronic Gadgets</h1></li>
+</ul>
+<div class="row">
+<div class="column">
+<a class="link1" href="https://www.google.com/url?q=http://www.flipkart.com/apple-iphone-11-black-128-gb/p/itm8244e8d955aba%3Fpid%3DMOBFWQ6BKRYBP5X8%26lid%3DLSTMOBFWQ6BKRYBP5X8HS0EXP%26marketplace%3DFLIPKART%26cmpid%3Dcontent_mobile_8965229628_gmc&sa=U&ved=0ahUKEwjAh-ul2-b5AhWi9jgGHZAWCo0QrzwI9wI&usg=AOvVaw0zwjN5y9rm2X5-xwvsEOlD"><img src="iphone.webp" alt="apple" style="width:30%;height:42%;"><br><br>Apple iPhone 11 (128 GB, Black)
+Smartphone · Dual SIM · iOS
+₹46,999.00₹46,999.00.
+Flipkart
++Delivery
+. Visit site of Flipkart in a new window
+Compare prices from 10+ shops</a>
+</div>
+<div class="column">
+<a class="link2"  href="https://www.google.com/shopping/product/8077378235590587042?q=fridge+amazon&rlz=1C1CHBF_enIN1018IN1018&hl=en-US&biw=1536&bih=688&uact=5&oq=fridge+amazon&gs_lcp=Cgtwcm9kdWN0cy1jYxADMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIECAAQGDIECAAQGDIECAAQGDIGCAAQHhAHMgYIABAeEAcyBggAEB4QBzoKCAAQsQMQgwEQQzoECAAQQzoLCAAQgAQQsQMQgwE6BAgAEAM6BAgAEAo6BAgAEA06BggAEA0QGEoECEEYAFAAWJMdYPwjaABwAHgAgAGBA4gBsQuSAQcwLjYuMS4xmAEAoAEBwAEB&sclient=products-cc&prds=eto:11562634112280933003_0,pid:4074053466862223289&sa=X&ved=0ahUKEwiPocq24eb5AhUcS2wGHXX-B74Q8gIIzgooAA"><img src="rf.webp" alt="fridge" width="30%" height="42%"><br><br>Samsung Single Door Refrigerator 
+Paradise Blue
+₹23,990.00₹23,990.00.
+Howzzthat.com
+Free delivery
+. Visit site of Howzzthat.com in a new window
+Compare prices from 3 shops</a> 
+</div>
+<div class="column">
+<a class="link3"  href="https://www.google.com/shopping/product/6539588869532250149?q=laptop+amazon&rlz=1C1CHBF_enIN1018IN1018&biw=1046&bih=718&dpr=1.25&prds=eto:16106956228227247139_0,pid:7772373095583514161,rsk:PC_9550403800163167617&sa=X&ved=0ahUKEwiwpbPdm-f5AhWISmwGHa8EAAgQ8gIInw4oAA"><img src="lp.webp" alt="laptop" style="width:30%;height:42%;"><br><br>Lenovo Windows 11 Home Laptop
+4.5431
+Windows OS · Dual Core
+₹27,990.00₹27,990.00.
+Flipkart
++Delivery
+. Visit site of Flipkart in a new window
+Compare prices from 5+ shops</a>
+</div>
+</div>
+<br>
+<div class="row1">
+<div class="column1">
+<a class="link4"  href="https://www.google.com/shopping/product/280497554363934954?q=smart+tv+amazon&rlz=1C1CHBF_enIN1018IN1018&biw=1046&bih=660&oq=lsmarttv+amazon&gs_lcp=Cgtwcm9kdWN0cy1jYxABGAAyBAgAEA0yBAgAEA0yBAgAEA0yBggAEA0QGDIGCAAQDRAYMgYIABANEBgyBggAEA0QGDIGCAAQDRAYMgYIABANEBgyBggAEA0QGDoNCAAQsQMQgwEQsAMQQzoICAAQgAQQsAM6BQgAEIAEOgQIABAKOgYIABAeEBg6DAgAEB4QDxAIEAoQGDoFCAAQogQ6CggAEB4QCBANEBhKBAhBGAFQhwNY0ihg-zVoAXAAeACAAe8BiAGdDpIBBTAuMS43mAEAoAEByAEKwAEB&sclient=products-cc&prds=eto:3825772771865625740_0,pid:3347856658840136465,rsk:PC_1059977302147362622&sa=X&ved=0ahUKEwjLn5W9pef5AhWY2TgGHQQkCN4Q8gIIgg8oAA"><img src="tv.webp" alt="tv" style="width:30%;height:40%;"><br><br>Samsung Series 4 80cm 32 Inch Hd Smart Tv
+4.011
+HDR · Flat · High Definition
+₹17,999.00₹17,999.00.
+Flipkart
++Delivery
+. Visit site of Flipkart in a new window
+Compare prices from 10+ shops
+</div>
+<div class="column1">
+<a class="link5"  href="https://www.google.com/url?q=https://yumclothes.com/product/multi-function-mini-portable-air-conditioner/%3Fattribute_color%3DGreen%26utm_source%3DGoogle%2520Shopping%26utm_campaign%3DYumclothes%2520Feed%2520Pro%252029-06-2022%26utm_medium%3Dcpc%26utm_term%3D46857&sa=U&ved=0ahUKEwiAipOpp-f5AhUE8jgGHTHPA40QwSsI-AE&usg=AOvVaw3ogSW6RDXE8aXJo77JQuNt"><img src="newac.webp" alt="cooler" style="width:30%;height:40%;"><br><br>Multi-function Mini Portable Air Conditioner Green
+₹399.00₹399.00.
+Flipkart
++Delivery
+. Visit site of Flipkart in a new window
+Compare prices from 10+ shops
+</a>
+</div>
+<div class="column1">
+<a class="link6"  href="https://www.google.com/shopping/product/654695134692183851?q=smartwatches+amazon&rlz=1C1CHBF_enIN1018IN1018&biw=1046&bih=660&uact=5&oq=smartwatches+amazon&gs_lcp=Cgtwcm9kdWN0cy1jYxADMgQIABAYMgYIABAeEAUyCAgAEB4QCBAKMggIABAeEAUQGDIKCAAQHhAFEAoQGDIICAAQHhAFEBgyCAgAEB4QBRAYMgoIABAeEA8QBRAYMggIABAeEAgQGDIICAAQHhAIEBg6CggAELEDEIMBEEM6BAgAEAM6BQgAEIAEOgYIABAKEBg6BggAEB4QBzoECAAQDToGCAAQDRAYOggIABAeEAcQCjoKCAAQsQMQgwEQCjoECAAQCjoICAAQHhAHEAU6CggAEB4QCBAHEAo6CggAEB4QDRAFEBg6DAgAEB4QDRAFEAoQGDoMCAAQHhAPEA0QBRAYOgoIABAeEAgQDRAYSgQIQRgAUABYwGFgkWVoAnAAeACAAYUCiAG-FpIBBTAuOC43mAEAoAEBwAEB&sclient=products-cc&prds=eto:12388615295665687941_0,pid:11140585084031067533,rsk:PC_5532121649348493427&sa=X&ved=0ahUKEwjBlqTKqef5AhWEZ2wGHWXRBoMQ8wIIhQ4"><img src="swamazon.webp" alt="watch" style="width:30%;height:40%;"><br><br>Apple Watch Series 
+4.612,810
+₹61,098.25 + tax₹61,098.25 +
+ tax.($764.00 + tax)
+BrookPad
+Free delivery</a>
+</div>
+</div>
+<hr>
+<div class="row3">
+<div class="column3">
+<h1 style="font-size: 50px;">Download the App</h1>
+
+<pre><p>Buy electronic device at the best price with exciting offers from
+ Flipkart, Amazon, Paytm and lots more
+<br>
+Download from</p>
+<a class="link7"  href="https://www.playstore.com"><img src="googleplay2.png" alt="play" style="width:25%;height:10%;"></a><br>
+<a class="link8"  href="https://www.appstore.com"><img src="appstore.png" alt="play" style="width:25%;height:10%;"></a>
+</div>
+<div class="column3">
+<img src="gadjets.jpg" alt="mobile" width="70%" height="80%">
+</div>
+</div>
+
+<pre><h4>
+Buy Every type of gadjet On Our Electronics Shop
+Trusted by more than 1 Crore Indians
+Cash on Delivery | Free Delivery</h4>
+<a href="https://www.playstore.com"><img src="pstore.webp" alt="playstore" style="width:40px;height:40px;"</a>  <a href="https://www.facebook.com"><img src="fb.png" alt="facebook" style="width:40px;height:40px;"</a>  <a href="https://www.youtube.com"><img src="yt.webp" alt="youtube" style="width:40px;height:40px;"</a>  <a href="https://www.instagram.com"><img src="insta.png" alt="instagram" style="width:40px;height:40px;"</a> <a href="https://www.twitter.com"><img src="twitter.png" alt="twitter" style="width:40px;height:40px;"</a>
+<br>
+<a href="New folder(2)/file folder/folder1/external css.html">Contact us</a>
+
+
+
+Fashnear Technologies Private Limited,
+CIN: U74900KA2015PTC082263 
+Vaishnavi Signature, No.14/3 (habbowsal)ludhiana, Punjab,India
+E-mail address: yuvrajsharma@gmail.com
+© 2015-2022 sharmaenterprises.com
+          
