@@ -1,0 +1,26 @@
+<html>
+    <head></head>
+        <h1>hello everyone</h1>
+        <title>while loop project</title>
+        <body style="background-color:turquoise">
+            
+<script type="text/javascript">
+ var a=prompt("enter a number")
+ var year=a
+ document.write("entering the loop")
+    while(year<100){ 
+        if ( year==50){
+            break;}
+        document.write( year+ "<br/>")
+        year++
+        
+    
+    
+    }
+</script>
+
+            
+        </body>
+    
+
+</html>
