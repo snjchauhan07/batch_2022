@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="jquery-3.6.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+         /* get H P IW OT TRUE W IH OH  */
+        /* .box{
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .red{
+            background-color: red ;
+        }
+
+        .circle{
+            border-radius: 50%;
+        } */
+    </style>
+</head>
+<body>
+    <!-- testing that jquery work or not -->
+    <!-- <script>
+        $(document).ready(function(){
+            alert("ok");
+        });
+    </script> -->
+
+
+    <!-- SYNTAX -->
+    <!-- 
+    1. Select html element
+    2. Perform jquery function or action on element.
+     -->
+    <!-- 
+        $("#pra").hide();  //jquery example
+
+    $("selector").action();  //jquery SYNTAX
+     -->
+
+     <!-- selectors -->
+    <!-- 
+    <p id="pra">this is pra1</p>
+    <p class="black">this is pra2</p>
+    <p class="black">this is pra3</p>
+    -->
+    
+
+    <!-- EVENTS to get or set -->
+    <!-- <p id="pra">this is a p tag</p>
+    <button id="btn1">Show</button>
+    <button id="btn2">Hide</button>
+    <br>
+    <br>
+    <div id="colored-div" style="background-color: rgb(240, 124, 124); height: 100px; width: 100px;"><p>this is a p tag <a href="#" id="link">link</a></p></div> -->
+
+
+    <!-- using on get or set -->
+    <!-- <input type="text" id="input"> -->
+
+
+    <!-- Adding and removing element in html -->
+        <!-- before -->
+    <!-- <ul id="list"> -->
+        <!-- prepend -->
+        <!-- <li>red</li>
+        <li>black</li>
+        <li>green</li> -->
+        <!-- append -->
+    <!-- </ul> -->
+    <!-- after -->
+
+
+        <!-- adding and removing  class into element AND  get H P IW OT TRUE W IH OH  -->
+            <!-- <div id="box" class="box red"></div>
+            <button id="btn">click</button> -->
+
+            <!-- TRAVERSING HTML -->
+
+                <!-- uncomment with focus -->
+            <!--grandparent-->
+            <!-- <ul id="list">  -->
+                 <!--parent-->
+                <!-- <li>  -->
+                    <!--child-->
+                    <!-- <span id="span1">item 1</span>  -->
+                <!-- </li> -->
+                <!--parent-->
+                <!-- <li>  -->
+                    <!-- <span id="span2">item 2</span>
+                </li>
+            </ul> -->
+
+            <!-- TRANSVERSING THE SIBLING -->
+            <!-- <ul id="list">
+                <li>child 1</li>
+                <li>child 2</li>
+                <li id="item1">child 3</li>
+                <li>child 4</li>
+                <li id="item2">child 5</li>
+                <li>child 6</li>
+            </ul> -->
+
+
+    <script>
+        //FOR SELECTORS
+        
+        //$("p").hide();
+        //$("p.black").hide();  another ex
+
+
+        //for EVENTS
+        /*$("#btn").dblclick(function(){
+            $("p").hide();
+        });*/
+
+        //MOUSE OVER N OUT (event)
+
+        // $("#colored-div").hover/*mouseenter/mouseleave*/(function(){
+        //     $("p").hide();
+        // },
+        // function(){
+        //     $("p").show();
+        // });
+
+
+        //ON EVENT do multiple events on a single element with the help of .on() function
+
+        // $("#colored-div").on({
+        //     click: function(){
+        //         $(this).css("background-color","red");
+        //     },
+        //     mouseenter: function(){
+        //         $(this).css("background-color","green");
+        //     },
+        //     mouseleave: function(){
+        //         $(this).css("background-color","yellow");
+        //     },
+        //     dblclick: function(){
+        //         $(this).css("background-color","white");
+        //     }
+        // });
+
+
+            //EFFECTS
+
+            // $("#btn1").click(function(){
+            //     $("#colored-div")/*.fadeToggle/.hide/.fadeIn/.fadeTo(1000sec, 0.3)/.slideDown*/(1000);
+            // });
+
+            // $("#btn2").click(function(){
+            //     $("#colored-div")/*.show/.fadeOut/.slideUp*/(1000);
+            // });
+
+
+
+            //ANIMATE
+
+            // $("#btn1").click(function(){
+            //     $("#colored-div").animate({
+            //         opacity: '0.5',
+            //         height: '500px',
+            //         width: '500px'
+            //     },5000);
+            // });
+
+            // $("#btn2").click(function(){
+            //      $("#colored-div").stop();
+            
+            // });
+
+
+            //CALL BACK
+
+            // $("#btn1").click(function(){
+            //     $("#colored-div").hide(3000,function(){
+            //         alert("div hidden");
+            //     });
+            // });
+
+
+
+            //CHAINNING
+
+            // $("#btn1").click(function(){
+            //     $("#colored-div").css("background-color","red").slideUp(2000).slideDown(2000);
+            // });
+
+
+            //MANIPULATING HTML
+            // $("#btn1").click(function(){
+            //    /*var*/ txt = $("#colored-div")/*.text*/.html("<h1> this is a heading tag</h1>");
+            // //    alert(txt);
+            // });
+
+            // $("#btn1").click(function(){
+            //         $("#input").val("Sanjay Chauhan");
+                    
+            // });
+
+            //GET
+            // $("#btn1").click(function(){
+            //     var value = $("#link").attr("href");
+            //         alert(value);
+            //  });
+
+
+            //SET
+            //  $("#btn1").click(function(){
+            //     var value = $("#link").attr("href","class");
+            //  });
+
+
+            //  multiple setting like a playboy
+            //  $("#btn1").click(function(){
+            //        $("#link").attr({
+            //         "class": "black",
+            //         "href": "kuch bhi"
+            //        });
+                
+            //  });
+
+            // adding element in html
+
+            // $("#list").append("<li>stawberry</li>");
+            // $("#list").prepend("<li>chocolate</li>");
+            // $("#list").after("<p>after element</p>");
+            // $("#list").before("<p>before element</p>");
+
+
+            // removing
+            // $("#list").empty();
+
+         /*   // when want to remove all
+            $("#list").remove();
+            */
+
+            // adding and removing  class into element
+            // $("#btn").click(function(){
+            //     $("#box").addClass/*.removeClass/.toggleClass*/("circle");
+            //     // phli class ke baad space deke multiple classes bhi add kar skte hai
+            // });
+
+
+            // adding and removing CSS into element
+            // $("#btn").click(function(){
+            //     var css = $("#box").css("background-color","yellow");
+            //     // $("#box").css(
+            //     //     {
+            //     //         // ab isme multiple changing kar skte hai
+            //     //     }
+            //     // );
+
+            //     //when save use alert
+            //     // alert(css);
+            // });
+
+
+
+                // get H P IW OT TRUE W IH OH 
+            // $("#btn").click(function(){
+            //    var data = $("#box")/*.width()/.height()/.innerWidth()/.innerHeight()/.outWidth()/.innerHeight()/.true()/;
+            //    alert(data);
+                
+            // })
+
+
+
+            // TRAVERSING HTML
+           /*var elm = $("#span1").parent();
+           elm.css("border", "1px solid red");*/
+
+           /*var elm = $("#span1").parents();
+           elm.css("border", "1px solid red");*/
+
+           /*var elm = $("#span1").parentsUntil("ul");
+           elm.css("border", "1px solid red");*/
+
+           /*var elm = $("#list").children();
+           elm.css("border", "1px solid red");*/
+
+           /*var elm = $("#span1").find("#span2");
+           elm.css("border", "1px solid red");*/
+
+
+            //TRANSVERSING THE SIBLING
+              /*var elm =  $("#item1").siblings();
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").next().next();
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").nextAll();
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").nextUntil("#item2");
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").prevUntil();
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").prev();
+              elm.css("border", "1px solid red");*/
+
+              /*var elm =  $("#item1").prevAll();
+              elm.css("border", "1px solid red");*/
+
+
+
+    </script>
+</body>
+</html>
