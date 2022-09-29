@@ -1,0 +1,58 @@
+body{
+	background:#F0F8FF url("amazon-.jpg")  no-repeat right top;
+	background-size:25% 50%;
+	background-attachment:fixed;
+	margin-right:400px;
+}
+h1{
+	text-shadow: 3px 3px black;
+	text-align:center;
+	color:black;
+	font-family:georgia;
+	background-color:firebrick;
+	opacity:0.8;
+}
+p{
+	color:black;
+	font-family:georgia;
+	font-size:24px;
+}
+h2{
+	text-align:left;
+	background-color:firebrick;
+	font-family:georgia;
+	color:black;
+	opacity:0.9;
+	text-decoration-line:line-through;
+}
+#Heading{
+	text-align:left;
+	color:black;
+	font-family:georgia;
+	background-color:firebrick;
+	opacity:0.8;
+}
+.leftdiv{
+	float:left;
+	width:30%;
+	height:280px;
+}
+  .middlediv{
+	float:left;
+	background-color:powderblue;
+	width:30%;
+	height:280px;
+}
+  .rightdiv{
+ 	float:right;
+	width:30%;
+	height:280px;
+}
+  div{
+	padding:20px;
+	color:white;
+	background-color:firebrick;
+	width:30%;
+	border:double black 5px;
+	border-radius:12px;
+}
