@@ -1,0 +1,72 @@
+body{
+background-color:#ffe6ff;
+background-image: url("p19.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed;
+margin-right:200px;
+}
+.leftdiv{
+float:left;
+width:20%;
+height:400px;
+background-color:#c6d9ec;
+font-size:18px;
+}
+.middlediv{
+float:left;
+width:30%;
+height:400px;
+background-color:#c6d9ec;
+}
+.rightdiv{
+float:left;
+width:20%;
+height:400px;
+background-color:#c6d9ec;
+font-size:18px;
+}
+div{
+padding:20px;
+width:30%;
+border:double darkblue 5px;
+border-radius:12px;
+}
+img {
+  opacity: 0.9;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#6666ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:{
+  background-color:#dd99ff;
+}
+
+#overflowTest {
+  background-color: #6666ff;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid darkblue ;
+}
+

@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>table2</title>
+<style>
+table,th,td {
+	border: 2px solid red;
+	border-radius: 5px;
+}
+th, td {
+	background-color: #96D4D4;
+}
+</style>
+<body>
+<table>
+  <tr>
+    <th>Student Name</th>
+    <th>Roll No.</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>Jaswinder Singh</td>
+    <td>1</td>
+    <td>44</td>
+  </tr>
+  <tr>
+    <td>Sehaj</td>
+    <td>2</td>
+    <td>41</td>
+  </tr>
+ <tr>
+    <td>Harman</td>
+    <td>3</td>
+    <td>39</td>
+  </tr>
+</table>
+	
